@@ -1,0 +1,269 @@
+﻿<Window x:Class="WPFPricingCard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFPricingCard"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="1100"
+        FontFamily="Roboto" 
+        WindowStartupLocation="CenterScreen" WindowStyle="None"
+        Background="Transparent" AllowsTransparency="True"
+        ResizeMode="NoResize">
+    <Border CornerRadius="10" Background="{DynamicResource PrimaryBackgroundColor}">
+        <Grid>
+            <!-- Start: ToggleButton -->
+            <Border Background="{DynamicResource SecundaryBackgroundColor}"
+                    Height="60" Width="100"
+                    CornerRadius="5"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Center"
+                    Margin="0 25 0 0">
+                <ToggleButton x:Name="Themes"
+                              IsChecked="False"
+                              Click="Themes_Click"
+                              Style="{DynamicResource ToggleButtonStyle}"/>
+            </Border>
+            <!-- End: ToggleButton -->
+            
+            <!-- Start: Container -->
+            <StackPanel Orientation="Horizontal"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center">
+                
+                <!-- Start: Free Card -->
+                <Border Background="{DynamicResource SecundaryBackgroundColor}"
+                        Style="{DynamicResource CardBorderStyle}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="20"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="50"/>
+                        </Grid.RowDefinitions>
+
+                        <!-- Start: Emoji -->
+                        <Border Grid.Row="0"
+                                Padding="12"
+                                Background="{DynamicResource PrimaryEmojiColor}"
+                                HorizontalAlignment="Center" CornerRadius="50">
+                            <Ellipse Height="35"
+                                     Width="35">
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="Resources/free.png"/>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </Border>
+                        <!-- End: Emoji -->
+
+                        <!-- Start: Title -->
+                        <Label Grid.Row="1"
+                               HorizontalAlignment="Center"
+                               Content="Free"
+                               Style="{DynamicResource FreeTeamTitlesLabelStyle}"/>
+                        <!-- End: Title -->
+
+                        <!-- Start: Price And SubTitle -->
+                        <StackPanel Grid.Row="2"
+                                    Orientation="Horizontal"
+                                    HorizontalAlignment="Center">
+                            <Label Content="$0"
+                                   Style="{DynamicResource FreeTeamPricingLabelStyle}"/>
+                            <Label Content="/Per month"
+                                   Style="{DynamicResource FreeTeamSubTitlesLabelStyle}"/>
+                        </StackPanel>
+                        <!-- End: Price And SubTitle -->
+
+                        <!-- Start: Lists -->
+                        <StackPanel Grid.Row="3"
+                                    Orientation="Vertical"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center">
+                            <Label Content="1 users"
+                                   Style="{DynamicResource FreeTeamIconLabelsStyle}"/>
+
+                            <Label Content="10 downloads per day"
+                                   Margin="0 10 0 10"
+                                   Style="{DynamicResource FreeTeamIconLabelsStyle}"/>
+
+                            <Label Content="Daily content updates"
+                                   Style="{DynamicResource FreeTeamIconLabelsStyle}"/>
+                        </StackPanel>
+                        <!-- End: Lists -->
+
+                        <!-- Start: Button -->
+                        <Button Grid.Row="4"
+                                Content="Subscribe"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Style="{DynamicResource PrimaryButtonStyle}"/>
+                        <!-- End: Button -->
+                    </Grid>
+                </Border>
+                <!-- End: Free Card -->
+                
+                <!-- Start: Pro Card -->
+                <Border Background="{DynamicResource PrimaryBlueColor}"
+                        Margin="20 0 20 0"
+                        Style="{DynamicResource CardBorderStyle}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="20"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="50"/>
+                        </Grid.RowDefinitions>
+                        
+                        <!-- Start: Emoji -->
+                        <Border Grid.Row="0"
+                                Padding="12"
+                                Background="{DynamicResource PrimaryBlueEmojiColor}"
+                                HorizontalAlignment="Center" CornerRadius="50">
+                            <Ellipse Height="35"
+                                     Width="35">
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="Resources/pro.png"/>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </Border>
+                        <!-- End: Emoji -->
+                        
+                        <!-- Start: Title -->
+                        <Label Grid.Row="1"
+                               HorizontalAlignment="Center"
+                               Content="Pro"
+                               Style="{DynamicResource TitleLabelStyle}"/>
+                        <!-- End: Title -->
+                        
+                        <!-- Start: Price And SubTitle -->
+                        <StackPanel Grid.Row="2"
+                                    Orientation="Horizontal"
+                                    HorizontalAlignment="Center">
+                            <Label Content="$30"
+                                   Style="{DynamicResource PriceLabelStyle}"/>
+                            <Label Content="/Per month"
+                                   Style="{DynamicResource SubTitleLabelStyle}"/>
+                        </StackPanel>
+                        <!-- End: Price And SubTitle -->
+                        
+                        <!-- Start: Lists -->
+                        <StackPanel Grid.Row="3"
+                                    Orientation="Vertical"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center">
+                            <Label Content="5 users"
+                                   Style="{DynamicResource IconLabelStyle}"/>
+                            
+                            <Label Content="Unlimited downloads"
+                                   Margin="0 10 0 10"
+                                   Style="{DynamicResource IconLabelStyle}"/>
+                            
+                            <Label Content="Daily content updates"
+                                   Style="{DynamicResource IconLabelStyle}"/>
+                            
+                            <Label Content="Full-editable files"
+                                   Margin="0 10 0 10"
+                                   Style="{DynamicResource IconLabelStyle}"/>
+                            
+                            <Label Content="Browse with no ads"
+                                   Style="{DynamicResource IconLabelStyle}"/>
+                        </StackPanel>
+                        <!-- End: Lists -->
+                        
+                        <!-- Start: Button -->
+                        <Button Grid.Row="4"
+                                Content="Subscribe"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Style="{DynamicResource ProButtonStyle}"/>
+                        <!-- End: Button -->
+                    </Grid>
+                </Border>
+                <!-- End: Pro Card -->
+                
+                <!-- Start: Team Card -->
+                <Border Background="{DynamicResource SecundaryBackgroundColor}"
+                        Style="{DynamicResource CardBorderStyle}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="20"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="50"/>
+                        </Grid.RowDefinitions>
+
+                        <!-- Start: Emoji -->
+                        <Border Grid.Row="0"
+                                Padding="12"
+                                Background="{DynamicResource PrimaryEmojiColor}"
+                                HorizontalAlignment="Center" CornerRadius="50">
+                            <Ellipse Height="35"
+                                     Width="35">
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="Resources/team.png"/>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </Border>
+                        <!-- End: Emoji -->
+
+                        <!-- Start: Title -->
+                        <Label Grid.Row="1"
+                               HorizontalAlignment="Center"
+                               Content="Team"
+                               Style="{DynamicResource FreeTeamTitlesLabelStyle}"/>
+                        <!-- End: Title -->
+
+                        <!-- Start: Price And SubTitle -->
+                        <StackPanel Grid.Row="2"
+                                    Orientation="Horizontal"
+                                    HorizontalAlignment="Center">
+                            <Label Content="$50"
+                                   Style="{DynamicResource FreeTeamPricingLabelStyle}"/>
+                            <Label Content="/Per month"
+                                   Style="{DynamicResource FreeTeamSubTitlesLabelStyle}"/>
+                        </StackPanel>
+                        <!-- End: Price And SubTitle -->
+
+                        <!-- Start: Lists -->
+                        <StackPanel Grid.Row="3"
+                                    Orientation="Vertical"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center">
+                            <Label Content="10 users"
+                                   Style="{DynamicResource FreeTeamIconLabelsStyle}"/>
+
+                            <Label Content="Unlimited downloads"
+                                   Margin="0 10 0 10"
+                                   Style="{DynamicResource FreeTeamIconLabelsStyle}"/>
+
+                            <Label Content="Daily content updates"
+                                   Style="{DynamicResource FreeTeamIconLabelsStyle}"/>
+
+                            <Label Content="Full-editable files"
+                                   Margin="0 10 0 10"
+                                   Style="{DynamicResource FreeTeamIconLabelsStyle}"/>
+
+                            <Label Content="Browse with no ads"
+                                   Style="{DynamicResource FreeTeamIconLabelsStyle}"/>
+                        </StackPanel>
+                        <!-- End: Lists -->
+
+                        <!-- Start: Button -->
+                        <Button Grid.Row="4"
+                                Content="Subscribe"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Style="{DynamicResource PrimaryButtonStyle}"/>
+                        <!-- End: Button -->
+                    </Grid>
+                </Border>
+                <!-- End: Card Team -->
+                
+            </StackPanel>
+            <!-- End: Container -->
+        </Grid>
+    </Border>
+</Window>

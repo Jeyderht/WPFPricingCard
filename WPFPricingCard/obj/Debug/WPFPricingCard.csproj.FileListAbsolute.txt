@@ -1,0 +1,40 @@
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\bin\Debug\WPFPricingCard.exe.config
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\bin\Debug\WPFPricingCard.exe
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\bin\Debug\WPFPricingCard.pdb
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\obj\Debug\WPFPricingCard.csprojAssemblyReference.cache
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\obj\Debug\MainWindow.g.cs
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\obj\Debug\App.g.cs
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\obj\Debug\WPFPricingCard_MarkupCompile.cache
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\obj\Debug\WPFPricingCard_MarkupCompile.lref
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\obj\Debug\App.baml
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\obj\Debug\Assets\Icons.baml
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\obj\Debug\MainWindow.baml
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\obj\Debug\Styles\MainStyle.baml
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\obj\Debug\Themes\DarkTheme.baml
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\obj\Debug\Themes\LightTheme.baml
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\obj\Debug\WPFPricingCard.g.resources
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\obj\Debug\WPFPricingCard.Properties.Resources.resources
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\obj\Debug\WPFPricingCard.csproj.GenerateResource.cache
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\obj\Debug\WPFPricingCard.csproj.CoreCompileInputs.cache
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\obj\Debug\WPFPricingCard.exe
+C:\Users\JEYDERHT\Desktop\UI Controls\WPFPricingCard\obj\Debug\WPFPricingCard.pdb
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\bin\Debug\WPFPricingCard.exe.config
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\bin\Debug\WPFPricingCard.exe
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\bin\Debug\WPFPricingCard.pdb
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\obj\Debug\WPFPricingCard.csprojAssemblyReference.cache
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\obj\Debug\MainWindow.g.cs
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\obj\Debug\App.g.cs
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\obj\Debug\WPFPricingCard_MarkupCompile.cache
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\obj\Debug\WPFPricingCard_MarkupCompile.lref
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\obj\Debug\App.baml
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\obj\Debug\Assets\Icons.baml
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\obj\Debug\MainWindow.baml
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\obj\Debug\Styles\MainStyle.baml
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\obj\Debug\Themes\DarkTheme.baml
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\obj\Debug\Themes\LightTheme.baml
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\obj\Debug\WPFPricingCard.g.resources
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\obj\Debug\WPFPricingCard.Properties.Resources.resources
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\obj\Debug\WPFPricingCard.csproj.GenerateResource.cache
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\obj\Debug\WPFPricingCard.csproj.CoreCompileInputs.cache
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\obj\Debug\WPFPricingCard.exe
+C:\Users\JEYDERHT\Desktop\UI Controls\Nueva carpeta\PricingCardUIDesign\WPFPricingCard\obj\Debug\WPFPricingCard.pdb
